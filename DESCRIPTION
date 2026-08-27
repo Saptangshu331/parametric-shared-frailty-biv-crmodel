@@ -1,0 +1,14 @@
+Package: ggflexbcr
+Type: Package
+Title: A flexible bivariate cure model with shared random effect
+Version: 0.1.0
+Author: Saptangshu Nandi
+Maintainer: Saptangshu Nandi <saptangshunandi331@gmail.com>
+Description: This package provides implementation of a parametric shared frailty bivariate cure rate model.
+    It includes the necessary functions and estimation methods using EM Algorithm as demonstrated in the paper.
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 1.0.6), RcppArmadillo,RcppEigen, RcppNumerical,pbv,roptim,MASS,stats 
+LinkingTo: Rcpp, RcppArmadillo, pbv,roptim, RcppEigen,RcppNumerical
+RoxygenNote: 7.2.3

@@ -1,0 +1,12 @@
+useDynLib(ggflexbcr, .registration = TRUE)
+exportPattern("^[[:alpha:]]+")
+
+importFrom(MASS, "mvrnorm")
+ importFrom("stats", "rexp", "rgamma", "rweibull","runif","rlnorm")
+import(Rcpp)
+import(RcppArmadillo)
+import(RcppEigen)
+import(RcppNumerical)
+import(pbv)
+import(roptim)
+
